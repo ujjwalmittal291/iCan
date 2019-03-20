@@ -1,13 +1,20 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;}
+img {
+    vertical-align: middle;
+    height: 100%;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  height: 100%;
+  filter: blur(1px);
+  -webkit-filter: blur(0.8px);
+
 }
 
 /* Next & previous buttons */
@@ -21,7 +28,7 @@ img {vertical-align: middle;}
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 1.2s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -76,9 +83,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
