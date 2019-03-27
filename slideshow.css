@@ -1,17 +1,35 @@
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
+
+body
+{
+    font-family: Verdana, sans-serif;
+    margin:0;
+    /* max-width: 100%; */
+    /* height:auto; */
+    padding: 0;
+}
+.mySlides
+{
+    display: none;
+    height: auto;
+    /* max-width: 100%; */
+}
 img {
-    vertical-align: middle;
-    height: 100%;
+    /* vertical-align: middle; */
+    /* max-height: 100%; */
+    /* display: block; */
+    /* height:auto; */
+    /* margin: 0 auto; */
+    max-width: 100%;
+    object-fit: contain;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  /* max-width: 100%; */
   position: relative;
-  margin: auto;
-  height: 100%;
+  margin: 0;
+  /* max-height: 100%; */
   filter: blur(1px);
   -webkit-filter: blur(0.8px);
 
@@ -22,7 +40,7 @@ img {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
+  /* width: auto; */
   padding: 16px;
   margin-top: -22px;
   color: white;
@@ -51,7 +69,7 @@ img {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
 }
 
@@ -81,19 +99,19 @@ img {
 }
 
 /* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
+.slide {
+  -webkit-animation-name: slide;
   -webkit-animation-duration: 5s;
-  animation-name: fade;
+  animation-name:    slide;
   animation-duration: 5s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes slide {
   from {opacity: .4}
   to {opacity: 1}
 }
 
-@keyframes fade {
+@keyframes slide {
   from {opacity: .4}
   to {opacity: 1}
 }
