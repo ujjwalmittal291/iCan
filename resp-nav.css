@@ -1,7 +1,7 @@
 body {margin:0;font-family:Arial}
 
 .topnav {
-  overflow: hidden;
+  overflow: visible;
   background-color: #fff;
   position: fixed;
   width: 100%;
@@ -29,7 +29,7 @@ body {margin:0;font-family:Arial}
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
 }
 
