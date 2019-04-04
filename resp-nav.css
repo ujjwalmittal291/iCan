@@ -30,6 +30,7 @@ body {margin:0;font-family:Arial}
 .dropdown {
   float: left;
   overflow: hidden;
+  z-index: 1;
 }
 
 .dropdown .dropbtn {
