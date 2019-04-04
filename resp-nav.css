@@ -13,7 +13,7 @@ body {margin:0;font-family:Arial}
   display: block;
   color: #333;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -38,7 +38,7 @@ body {margin:0;font-family:Arial}
   border: none;
   outline: none;
   color: #333;
-  padding: 14px 16px;
+  padding: 10px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
