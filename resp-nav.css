@@ -6,6 +6,7 @@ body {margin:0;font-family:Arial}
   position: fixed;
   width: 100%;
   z-index: 1;
+  height: 50px;
 }
 
 .topnav a {
