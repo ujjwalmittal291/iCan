@@ -1,2 +1,2 @@
 # iCan
-iCan School for Special Education
+iCan School for Special Education.
