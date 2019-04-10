@@ -35,3 +35,14 @@ img{
   top: 45%;
   left: 45%;
 }
+
+@media screen and (max-width:500px)
+{
+  .ican
+  {
+    width: 20%;
+  }
+  .ic{
+  width: 20%;
+  }
+}
