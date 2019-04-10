@@ -3,10 +3,11 @@
   padding: 0;
   margin-top: -3%;
   box-sizing: border-box;
+
 }
 
 body{
-
+  background-image: url(../image/library.jpg);
 }
 
 .container{
