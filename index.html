@@ -1,110 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>iCan</title>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/lightbox.min.css">
-      <link rel="stylesheet" href="css/Lightbox-Gallery.css">
-      <link rel="stylesheet" href="css/styles.css">
-      <link rel="stylesheet" href="css/w3.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/resp-nav.css">
-    </head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script src="js/home.js" charset="utf-8"></script>
+    <title>Home</title>
 
-    <body>
-      <div class="topnav" id="myTopnav">
-        <div class="dropdown" id="active">
-          <button class="dropbtn" onclick="window.location.href = 'index.html'">Home
-            <!-- <i class="fa fa-caret-down"></i> -->
-          </button>
-          <div class="dropdown-content">
-            <a href="#">About us</a>
-            <a href="#">Our Philosophy</a>
-            <a href="#">Mission</a>
-            <a href="#">Vision</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Resources
-            <!-- <i class="fa fa-caret-down"></i> -->
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Faculty</a>
-            <a href="#">Parents</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Student Corner
-            <!-- <i class="fa fa-caret-down"></i> -->
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Philosophy</a>
-            <a href="#">Therapies</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Other Resources
-            <!-- <i class="fa fa-caret-down"></i> -->
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Time table</a>
-            <a href="#">Diet Plan</a>
-            <a href="#">Event Corner</a>
-          </div>
-        </div>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
-      <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-      <div data-bs-parallax-bg="true" style="height:400px;background-image:url('image/bigstock.jpg');background-position:center;background-size:cover;"></div>
-      <div class="jumbotron"style="margin-bottom:0px;">
-        <h1>Welcome to iCAN.</h1>
-        <div class="jumbotext" style="margin: 20px; font-size:16px;">
-          <p>At iCAN we’re committed for providing a positive, safe and nurturing environment. We pride ourselves on our caring atmosphere.
-            <br>
-            We understand concerns of Parents and we’re glad that we can help you in the developmental needs of your most precious and valued treasure – your child.
-            <br>
-            Not all children have the same needs – this we know. Many may need individual guidance and companionship.  That’s why our staff is carefully selected and trained to handle a wide spectrum of need. We provide a place where children feel comfortable, can have fun while learning and have the opportunity to grow to be better individual.
-            <br>
-            Our highly skilled and trained youth workers are chosen to provide the best care for your child. They bring enthusiasm, fun and a strong desire to work with kids.
-            <br>
-            Institute provides a wide range of activities, both indoors and out.  Our extensive all weather facilities include large, secure, and safe play areas including our own playground, recreation room, carpeted activity and quiet rooms.
-          </p>
-        </div>
-        <p>
-          <!-- <a class="btn btn-primary" role="button" href="#">Learn more</a> -->
-        </p>
-      </div>
-      <div data-bs-parallax-bg="true" style="height:300px;background-image:url('image/classroom29.jpg');background-position:center;background-size:cover;"></div>
-      <div class="jumbotron" style="margin-bottom:0px;">
-        <h3>About Us</h3>
-        <div class="jumbotext" style="margin: 20px; font-size:16px;">
-          <p>
-            Centre of Learning for Autistic and Special scholars was started by Ms. Neelam Agarwal in year 2019. As a parent of Special child, she identified that while there are various therapies being practiced globally, there was a need of a 360 degree developmental program which touches each aspect of a child’s requirements ranging from Sensory,Occupational, Speech and expanding towards the skill development activities like dance, music, drama etc. under one roof.
-            <br>
-            This approach will facilitate fellow Parents in getting all requirements being catered from one centre rather than going from pillar to post
-            <br>
-            <br>
-            Brief about Neelam Agarwal & Mr Achlesh Agarwal who are our Founders
-          </p>
-        </div>
-        <p>
-          <!-- <a class="btn btn-primary" role="button" href="#">Learn more</a> -->
-        </p>
-      </div>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/bs-animation.js"></script>
-      <script src="js/lightbox.min.js"></script>
+
+  </head>
+  <body onload="clickcount()">
+
+    <div class="con" id="con">
+      <img src="image/iCan.png" id="ican" class="ican" alt="iCan" onclick="ican()">
+    </div>
+    <div class="container" id="container">
+      <!-- <p id="q">Welcome</p> -->
+      <img src="image/About.png" id="about" class="ic" alt="about" onclick="window.location.href = 'about.html'">
+      <img src="image/Student.png" id="Student" class="ic" alt="Student corner" onclick="window.location.href = 'student.html'">
+      <img src="image/Parent.png" id="Parents" class="ic" alt="Parents secton" onclick="window.location.href = 'parent.html'">
+      <img src="image/Contact Us.png" id="Contact" class="ic" alt="Contact Us" onclick="window.location.href = 'contact.html'">
+
+    </div>
   </body>
 </html>
