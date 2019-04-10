@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin-top: -3%;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+  display: none;
+}
+img{
+  position: absolute;
+  display: block;
+  top: 45%;
+  left: 45%;
+}
+
+.ic{
+  width: 10%;
+}
+.con{
+  /* position: relative; */
+  display: block;
+}
+
+.ican{
+  z-index: 1;
+  width: 10%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
