@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/resp-nav.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <script src="js/contact.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="cover">
+      <img src="image/contactus.jpeg" alt="Contact Us">
+    </div>
+    <!-- Form Container 1 -->
+    <div class="formcontainer1">
+      <div class="formcontainer2">
+        <div class="formcontainer3">
+          <form method="post">
+            <div class="val">
+              <p>Name : </p>
+              <input type="text" name="Name" placeholder="Enter Full Name" required>
+            </div>
+            <div class="val">
+              <p>Contact Number : </p>
+              <input type="tel" name="ContactNumber" id="num" placeholder="Mobile number without code" onblur="number()" required>
+            </div>
+            <div class="val">
+              <p>Subject : </p>
+              <select name="submit">
+                <option value="0">Select a category</option>
+                <option value="1">Admission Process</option>
+                <option value="2">Courses offered</option>
+                <option value="3">Others</option>
+              </select>
+            </div>
+            <div class="val">
+              <p>Query : </p>
+              <input type="text" name="query" placeholder="Query" required>
+            </div>
+            <input type="submit" name="Submit" value="Submit" class="submit">
+            <input type="reset" class="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
