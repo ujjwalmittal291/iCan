@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+}
+
+div{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cover{
+  padding: 20px;
+  background-color: grey;
+  margin: auto;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+
+.formcontainer1{
+  background-color: grey;
+  margin: auto;
+  margin-top: -5%;
+  width: 80%;
+  padding: 2%;
+  position: relative;
+}
+
+.formcontainer2{
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  padding: 3%;
+  position: relative;
+}
+
+.formcontainer3{
+  margin: auto;
+  width: 50%;
+  align-content: center;
+  /* border: 1px solid black; */
+  padding: 1%;
+}
+
+.formcontainer3 p{
+  margin: auto;
+  display: inline;
+}
+
+.formcontainer3 input{
+  display: inline;
+  position: relative;
+  /* right: 2%; */
+  margin: auto;
+  width: 50%;
+}
+
+.val{
+  margin-top: 1%;
+  display: block;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.val input,select{
+  float: right;
+}
+
+.formcontainer3 .submit{
+  display: inline;
+  /* margin-left: auto; */
+  margin-top: 3%;
+  /* margin-right: auto; */
+  width: 45%;
+}
+
+/* Media query for mobile */
+@media (max-width:1000px) and (orientation:portrait){
+  body{
+    font-size: 0.7em;
+  }
+
+  .val{
+    margin: auto;
+  }
+
+  .formcontainer3 p{
+    font-size: 0.7em;
+    display: block;
+    margin: auto;
+  }
+  .cover{
+    padding: 0;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .formcontainer3 input,select{
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 0.5em;
+  }
+
+  .formcontainer1{
+    /* margin-top: -8%; */
+    width: 100%;
+  }
+
+  .formcontainer2{
+    width: 90%;
+  }
+
+  .formcontainer3{
+    width: 90%;
+  }
+
+  .formcontainer3 .submit{
+    /* width: 80%; */
+    font-size: 0.7em;
+  }
+}
