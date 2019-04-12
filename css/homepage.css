@@ -9,8 +9,8 @@
 body{
   background-image: url(../image/library.jpg);
   height: 100%;
-  /* background-position: center; */
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .container{
