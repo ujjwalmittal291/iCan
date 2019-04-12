@@ -3,11 +3,15 @@
   padding: 0;
   margin-top: -3%;
   box-sizing: border-box;
-
+  /* height: 100%; */
 }
 
 body{
   background-image: url(../image/library.jpg);
+  height: 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
 }
 
 .container{
@@ -34,15 +38,4 @@ img{
   position: absolute;
   top: 45%;
   left: 45%;
-}
-
-@media screen and (max-width:1080px)
-{
-  .ican
-  {
-    width: 20%;
-  }
-  .ic{
-  width: 20%;
-  }
 }
