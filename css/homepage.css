@@ -11,6 +11,7 @@ body{
   height: 100%;
   background-repeat: no-repeat;
   background-size: auto;
+  opacity: 0.7;
 }
 
 .container{
