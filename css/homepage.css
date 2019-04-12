@@ -39,3 +39,11 @@ img{
   top: 45%;
   left: 45%;
 }
+
+@media (max-width:500px) {
+  body{
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    height: 100%;
+  }
+}
