@@ -8,6 +8,37 @@ body{
   position: relative;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit],input[type=reset] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit],input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
 div{
   margin-left: auto;
   margin-right: auto;
@@ -44,11 +75,10 @@ img{
   position: relative;
 }
 
-.formcontainer3{
+/* .formcontainer3{
   margin: auto;
   width: 50%;
   align-content: center;
-  /* border: 1px solid black; */
   padding: 1%;
 }
 
@@ -60,7 +90,6 @@ img{
 .formcontainer3 input{
   display: inline;
   position: relative;
-  /* right: 2%; */
   margin: auto;
   width: 50%;
 }
@@ -68,7 +97,6 @@ img{
 .val{
   margin-top: 1%;
   display: block;
-  /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
@@ -80,11 +108,9 @@ img{
 
 .formcontainer3 .submit{
   display: inline;
-  /* margin-left: auto; */
   margin-top: 3%;
-  /* margin-right: auto; */
   width: 45%;
-}
+} */
 
 /* Media query for mobile */
 @media (max-width:1000px) and (orientation:portrait){
@@ -95,6 +121,7 @@ img{
   .val{
     margin: auto;
   }
+
 
   .formcontainer3 p{
     font-size: 0.7em;
