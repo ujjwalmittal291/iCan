@@ -75,31 +75,26 @@
     <div class="formcontainer1">
       <div class="formcontainer2">
         <div class="formcontainer3">
-          <form method="post">
-            <div class="val">
-              <p>Name : </p>
-              <input type="text" name="Name" placeholder="Enter Full Name" required>
-            </div>
-            <div class="val">
-              <p>Contact Number : </p>
-              <input type="tel" name="ContactNumber" id="num" placeholder="Mobile number without code" onblur="number()" required>
-            </div>
-            <div class="val">
-              <p>Subject : </p>
-              <select name="submit">
-                <option value="0">Select a category</option>
-                <option value="1">Admission Process</option>
-                <option value="2">Courses offered</option>
-                <option value="3">Others</option>
-              </select>
-            </div>
-            <div class="val">
-              <p>Query : </p>
-              <input type="text" name="query" placeholder="Query" required>
-            </div>
-            <input type="submit" name="Submit" value="Submit" class="submit">
-            <input type="reset" class="submit">
-          </form>
+          <form>
+    <label for="fname">Name</label>
+    <input type="text" id="name" name="Name" placeholder="Your name..">
+
+    <label for="lname">Contact Number</label>
+      <input type="text" name="ContactNumber" id="num" placeholder="Mobile number without code" onblur="number()" required>
+
+    <label for="country">Subject</label>
+    <select id="country" name="submit">
+      <option value="0">Select a category</option>
+      <option value="1">Admission Process</option>
+      <option value="2">Courses offered</option>
+      <option value="3">Others</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+    <input type="reset" class="submit">
+  </form>
         </div>
       </div>
     </div>
