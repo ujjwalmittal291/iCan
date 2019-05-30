@@ -26,6 +26,11 @@ body {
   color: white;
 }
 
+#active2 {
+  background-color: grey;
+  color: white;
+}
+
 .topnav .icon {
   display: none;
 }
