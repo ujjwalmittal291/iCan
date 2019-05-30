@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therapies</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/collapsible.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/resp-nav.css">
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="dropdown" >
+        <button class="dropbtn" onclick="window.location.href = 'index.html'">Home
+          <!-- <i class="fa fa-caret-down"></i> -->
+        </button>
+        <div class="dropdown-content">
+          <a href="about.html">About us</a>
+          <a href="about.html#philosophy">Our Philosophy</a>
+          <a href="about.html#mission">Mission</a>
+          <a href="about.html#vision">Vision</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Resources
+          <!-- <i class="fa fa-caret-down"></i> -->
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Faculty</a>
+          <a href="#">Parents</a>
+        </div>
+      </div>
+      <div class="dropdown" id="active">
+        <button class="dropbtn">Student Corner
+          <!-- <i class="fa fa-caret-down"></i> -->
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Philosophy</a>
+          <a href="therapies.html" id="active2">Therapies</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Other Resources
+          <!-- <i class="fa fa-caret-down"></i> -->
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Time table</a>
+          <a href="#">Diet Plan</a>
+          <a href="#">Event Corner</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact Us</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    </div>
+    <div data-bs-parallax-bg="true" style="height:400px;background-image:url('image/therapy.jpg');background-position:center;background-size:cover;"></div>
+    <div class="jumbotron"style="margin-bottom:0px;">
+      <h1 id="about">Our Programs</h1>
+      <div class="jumbotext" style="margin: 20px; font-size:16px;">
+        <p>
+          Our programs are tailor-made for each student because we believe that “One Size does not fit all”.
+          <br>
+          All therapies are designed in such a manner that they converge towards the Short Term and long term goals set up for the child.
+          <br>
+          We provide our students with various therapies such as <cite>(Click for further details)</cite>
+          <br>
+          <ul>
+            <!-- Aquatic Therapy -->
+            <li>
+              <button class="collapsible"><strong>Aquatic therapies</strong></button>
+              <div class="content">
+                <img src="image/aquatictherapy.jpg" alt="Aquatic Therapy">
+                <p>
+                  Aquatic therapy refers to treatments and exercises performed in water for relaxation, fitness, physical rehabilitation, and other therapeutic benefit.     Typically a qualified aquatic therapist gives constant attendance to a person receiving treatment in a heated therapy pool.
+                  <br>
+                  <br>
+                  Aquatic therapy techniques include:
+                  <ul>
+                    <li>Ai Chi</li>
+                    <li>Aqua Running</li>
+                    <li>Halliwick, and other aquatic bodywork forms</li>
+                  </ul>
+                  <br>
+                  Therapeutic applications include neurological disorders, spine pain, musculoskeletal pain, pediatric disabilities, and pressure ulcers.
+                </p>
+              </div>
+            </li>
+            <!-- Color therapies -->
+            <li>
+              <button class="collapsible"><strong>Color therapies</strong></button>
+                <div class="content">
+                  <img src="image/colortherapy.jpg" alt="Color Therapy">
+                  <p>
+                    Color therapy is an alternative therapy that uses colors and their frequencies to heal physical and emotional problems.Color therapy is also known as chromopathy, chromotherapy, or color healing.
+                    <br>
+                    <br>
+                    The goal of color therapy is to correct physiological and psychological imbalances. For instance, if you're stressed, color therapy can help soothe you so that you can regain your psychological balance. If you're depressed, color therapy can be used to invigorate you and give you increased energy.
+                  </p>
+                </div>
+              </li>
+              <!-- Accupressure & Yoga -->
+            <li>
+              <button class="collapsible"><strong>Accupressure & Yoga</strong></button>
+                <div class="content">
+                  <img src="image/acupressure.jpg" alt="">
+                  <p>Acupressure is often called acupuncture without the needles. Instead of needles, acupressure involves the application of manual pressure (usually with the fingertips) to specific points on the body.
+
+Most people try acupressure to manage symptoms of a condition, such as:
+
+Cancer-related fatigue
+Headache
+Menstrual cramps
+Motion sickness
+Muscle tension and pain
+Nausea or vomiting after surgery or chemotherapy
+Nausea and vomiting during pregnancy and morning sickness
+Stress management
+
+
+</p>
+                </div>
+              </li>
+            <li>
+              <button class="collapsible"><strong>Gross motor and fine motor therapies</strong></button>
+                <div class="content">
+                  <img src="image/motor.jpg" alt="">
+                  <p>Hi</p>
+                </div>
+              </li>
+            <li>
+              <button class="collapsible"><strong>Aroma and fragrance therapies</strong></button>
+                <div class="content">
+                  <img src="image/aroma.jpg" alt="">
+                  <p>Hi</p>
+                </div>
+              </li>
+            <li>
+              <button class="collapsible"><strong>Sound and light therapies</strong></button>
+                <div class="content">
+                  <img src="image/sound.jpg" alt="">
+                  <p>Hi</p>
+                </div></li>
+            <li>
+              <button class="collapsible"><strong>Therapy games and play way methods</strong></button>
+                <div class="content">
+                  <img src="image/games.jpg" alt="">
+                  <p>Hi</p>
+                </div>
+              </li>
+          </ul>
+          These therapies we provide are universal for every special need child. Now, if we talk about specific therapies we have researched a lot on every part.
+          <br>
+          <br>
+          <br>
+          <br>
+          <strong>We have special therapies for autism, Cerebal palsy and ADHD</strong>
+          <br>
+          For autism we provide full programme consisting of
+          <ul>
+            <li>Multifactored assessment</li>
+            <li>Applied behaviour analysis</li>
+            <li>Natural therapy services</li>
+          </ul>
+          For cerebal palsy we provide specialised programme consisting of
+          <br>
+          <ul>
+            <li>Gross motor and classification system</li>
+            <li>Augmentative and alternative communication</li>
+          </ul>
+          For ADHD we have prescribed behaviour programme consisting of
+          <ul>
+            <li>Cognitive behaviour therapy</li>
+            <li>Emotional and calming therapies</li>
+          </ul>
+          <br>
+          <strong>FOOD AS MEDICINE</strong>
+          <br>
+          WE PROVIDE OUR CHILDREN AND PARENTS WITH FOOD SKILL EDUCATION
+          <br>
+          We provide our children with the best Food Programs in INDIA suitable to regular as well as special children.
+          <br>
+          One of the most effective way to help families and children with special needs is through federal nutrition programs.
+          <br>
+          We focus our efforts on food benefits which enhances healthy eating habits along with a prominent degree of remedies that can help children with their on going problems and can even help them in preventing it.
+          <br>
+          Such nutritional programs that we know can make an enormous difference for our special kids, such as the school breakfast program, the summer meals program and the afterschool meals program.
+        </p>
+      </div>
+      <p>
+        <!-- <a class="btn btn-primary" role="button" href="#">Learn more</a> -->
+      </p>
+    </div>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      for (i = 0; i < coll.length; i++)
+      {
+        coll[i].addEventListener("click",function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if(content.style.maxHeight)
+          {
+            content.style.maxHeight = null;
+          }
+          else
+          {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+</script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bs-animation.js"></script>
+    <script src="js/lightbox.min.js"></script>
+  </body>
+</html>
