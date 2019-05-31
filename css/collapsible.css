@@ -16,9 +16,9 @@ cite {
   color: grey;
 }
 
-img {
+.content img{
   float: right;
-  /* width: 100%; */
+  width: 30%;
 }
 
 ul {
