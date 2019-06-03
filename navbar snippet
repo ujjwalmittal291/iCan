@@ -16,7 +16,7 @@
     </button>
     <div class="dropdown-content">
       <a href="#">Faculty</a>
-      <a href="#">Parents</a>
+       <a href="parent.html">Parents</a>
     </div>
   </div>
   <div class="dropdown">
@@ -24,7 +24,7 @@
       <!-- <i class="fa fa-caret-down"></i> -->
     </button>
     <div class="dropdown-content">
-      <a href="#">Philosophy</a>
+
       <a href="#">Therapies</a>
     </div>
   </div>
